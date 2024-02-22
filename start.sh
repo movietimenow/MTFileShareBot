@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /MTFileShareBot
 fi
-cd /Advance-File-Share-Bot
+cd /MTFileShareBot
 pip3 install -U -r requirements.txt
 echo "Bot Started...."
 python3 bot.py
